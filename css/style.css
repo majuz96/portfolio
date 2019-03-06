@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body{
+	font-family: 'Open Sans', sans-serif;
+	color: #000000;
+	font-size: 14px;
+	background-color: #fff;
+	
+}
+
+header{
+	padding: 20px 0;
+	
+}
+
+
+#slider-1 img{
+	max-height: 800px;
+}
+
+#slider-1 h1{
+	padding-top:250px;
+}
+
+#servicios {
+	padding: 200px 0;
+}
+
+#servicios h1{
+	padding: 60px 0;
+	text-align: center;
+}
+
+#servicios .fas{
+	font-size: 40px;
+	text-align: center;
+	padding-left: 150px;
+	margin-bottom: 15px;
+	color: #888383;
+	
+}
+
+#servicios h3{
+	text-align: center;
+}
+
+
+
+

@@ -12,6 +12,7 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
 	<link href="css/owl.carousel.min.css" rel="stylesheet">
 	<link href="css/jquery.fancybox.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/animate.css">
 	<link href="css/style.css" rel="stylesheet">
 	
 	
@@ -28,8 +29,8 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   
 	
-	<a class="navbar-brand " href="index.html">
-	<img src="img/logo-1.jpg" alt="mj-logo" clas="img-fluid" width="130">
+	<a  href="index.html">
+	<img src="img/logo-1.jpg" alt="mj-logo" clas="img-fluid" width="150">
 	
 	</a>
 	
@@ -45,18 +46,18 @@
       </li>
 		
       <li class="nav-item">
-        <a class="nav-link" href="#">Acerca de mí</a>
+        <a class="nav-link" href="#aboutme">Acerca de mí</a>
       </li>
 		
 		<li class="nav-item">
-        <a class="nav-link" href="#">Servicios</a>
+        <a class="nav-link" href="#servicios">Servicios</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Portafolio</a>
+        <a class="nav-link" href="#logos">Portafolio</a>
       </li>
 		
 		<li class="nav-item">
-        <a class="nav-link" href="#">Contacto</a>
+        <a class="nav-link" href="#contacto" data-src="#sec-form" data-fancybox>Contacto</a>
       </li>
 		
       
@@ -86,7 +87,7 @@
 		<article class="carousel-caption">
 		
 		
-		<h1>Bienvenidos a mi Portafolio</h1>
+		<h1 class="wow flipInX" data-wow-duration="1s" data-wow-delay="0.5s">Bienvenidos a mi Portafolio</h1>
 		
 		
 		</article>
@@ -280,19 +281,27 @@
 			
 			<div class="row">
 			
-			<article class="col-md-3 col-sm-6 col-xs-12">
+			<article class="col-md-6 col-sm-12 col-xs-12">
 				<h3>Contacto</h3>
 				<p>E-mail: murrutia1996@gmail.com</p>
 				<p>Cel: +504 3188-4664</p>
 				<h3>Sigueme en</h3>
 			<ul class="list-inline">
 				
-				<li class="list-inline-item"> <a href="#"><i class="fab fa-twitter"></i></a></li>
+				<li class="list-inline-item"> <a href="https://twitter.com/mjurrutia96"><i class="fab fa-twitter"></i></a></li>
 				<li class="list-inline-item"> <a href="#"><i class="fab fa-facebook"></i></a></li>
-				<li class="list-inline-item"> <a href="#"><i class="fab fa-instagram"></i></a></li>
+				<li class="list-inline-item"> <a href="https://www.instagram.com/majuz96/?hl=es-la"><i class="fab fa-instagram"></i></a></li>
 				
 				
 			</ul>
+				
+				</article>
+				
+				
+				<article class="col-md-6 col-sm-12 col-xs-12">
+				
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3870.491276712797!2d-87.17626138475302!3d14.048142294140964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f6fbcfacdb96c17%3A0x94999a679eabaa4f!2sUNITEC!5e0!3m2!1ses!2shn!4v1537150490964" width="400" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+				
 				
 				</article>
 			
@@ -303,6 +312,97 @@
 		
 		
 		</section>
+		
+		
+<section id="sec-form" style="display: none">
+		<div class="container">
+			<form name="form-contacto" id="form-contacto" method="post"
+			action="">
+			<div class="form-group">
+				<label class="col-md-2">Nombre:</label>
+				<input type="name" name="name" id="name" class="form-control col-md-10" placeholder="Escriba su nombre">
+				</div>
+				
+				<div class="form-group">
+				<label class="col-md-2">Empresa:</label>
+				<input type="email" name="company" id="company" class="form-control col-md-10" placeholder="Escriba nombre de su empresa">
+			</div>
+			
+			<div class="form-group">
+				<label class="col-md-2">E-mail:</label>
+				<input type="email" name="correo" id="correo" class="form-control col-md-10" placeholder="Escriba su correo">
+			</div>
+				
+				<div class="form-group">
+				<label class="col-md-2">Télefono:</label>
+				<input type="tel" name="telefono" id="telefono" class="form-control col-md-10" placeholder="Escriba su teléfono">
+			</div>
+			
+				<div class="form-group">
+				<label class="col-md-2">Mensaje:</label>
+				<textarea name="mensaje" id="mensaje" class="form-control col-md-10" placeholder="Escriba su mensaje"></textarea>
+			</div>
+			
+			<div class="form-group form-row">
+				<label class="col-md-2">País:</label>
+				<select name="country" id="country" class="form-control col-md-10">
+					<option value="HND">Honduras</option>
+					<option value="USA">Estados Unidos</option>
+					<option value="MEX">México</option>
+					<option value="GMT">Guatemala</option> 
+					<option value="ESV">El Salvador</option>
+					<option value="NIC">Nicaragua</option>
+				
+				
+				</select> 
+				</div>
+				<div class="form-group form-row">
+				<label class="col-md-2">Interés:</label>
+				<div class="form-check">
+					<label>
+						<input type="checkbox" name="graphic design" id="graphic design">Diseño Gráfico
+						</label>
+				</div>
+				
+				<div class="form-check">
+					<label>
+						<input type="checkbox" name="Photography" id="Photography">Fotografía
+						</label>
+				</div>
+				
+					<div class="form-check">
+					<label>
+						<input type="checkbox" name="Content Management" id="content management">Gestión de Contenido
+						</label>
+				</div>
+				
+				
+			</div>
+			
+			<div class="form-group form-row">
+				<label>¿Acepta los términos y condiciones?</label>
+				
+				<div class="form-check">
+					<label>
+						<input type="radio" name="terms" id="terms-no" value="no">No Acepto
+					</label>
+				</div>
+				
+				<div class="form-check">
+					<label>
+						<input type="radio" name="terms" id="terms-yes" value="yes">Acepto
+					</label>
+				</div>
+			</div>
+			
+			<div class="form-group">
+				<button type="submit" class="btn btn-rectangulo">Enviar Información</button>
+			</div>
+			
+			</form>
+		</div>
+		
+	</section>
 	
 	<section id="copyright">
 		
@@ -342,6 +442,11 @@
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/owl.carousel.min.js"></script>
 	<script src="js/jquery.fancybox.min.js"></script>
+	<script src="js/wow.min.js"></script>
+	
+	<script>
+              new WOW().init();
+	</script>
 	
 	
 	<script>

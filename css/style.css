@@ -122,4 +122,46 @@ header{
 }
 
 
+.ocultar {
+	display: none;
+}
+
+.btn-rectangulo {
+	background-color: #000000;
+	border:1px solid #fff;
+	color: #fff;
+	border-radius: 0;
+	padding: 10px 30px;
+	text-transform: lowercase;
+	font-weight: 600;
+		
+}
+
+.btn-rectangulo:hover {
+	background-color: #777;
+	border:1px solid #fff;
+	color: #fff;
+}
+
+
+
+/*Tablet*/
+@media (min-width: 480px) and (max-width:1024px) {
+	
+	.slider-1 h1{
+		font-size: 20px;
+	}
+}
+
+
+
+/*Celular*/
+
+@media (max-width:480px){
+	.slider-1 h1{
+		font-size: 20px;
+	}
+	
+}
+
 
